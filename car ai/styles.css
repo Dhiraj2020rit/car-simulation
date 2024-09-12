@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+    overflow: hidden;
+    text-align: center;
+}
+#carCanvas{
+    background: rgb(210, 210, 208);
+}
+
+#networkCanvas{
+    background: black;
+}
+
+#verticalButtons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: blue;
+}
